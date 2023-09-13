@@ -1,0 +1,113 @@
+
+nav {
+    display:contents
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: auto;
+    background-color: #a306b6;
+    width: auto;
+        
+}
+li:nth-child(1n + 1) {
+margin: 10px;
+}
+
+
+a{
+ color: white;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+a:hover{
+   background-color: white; 
+   color: #a306b6;
+   padding: 20px;
+   border-radius: 250px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+
+ width: 700px;
+  height: 60px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    text-align: center; 
+    margin-left: 250px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+h1{
+    font-size: 30px;
+  letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#second-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+ .form-test{
+   padding: 1rem;
+   margin: 10px 10px 10px 280px;
+ }
+input{
+    margin:10px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: none;
+    
+}
+
+textarea{
+    margin-left: 50px;
+    width: 500px;
+    border-radius: 10px;
+    background-color:gainsboro;
+    border: none;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+button{
+    margin: 10px 10px 10px 50px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a306b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+
+}
+
+footer{
+    width: 100%;
+    padding: 10px 10px 5px 30px;
+    border-radius: 2px;
+    background-color: gray;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+
+    }
+ 
+
+
